@@ -2,8 +2,11 @@
 
 def echo(text:str, repetitions:int = 3) -> str:
     """Imitate a real world echo."""
-    last3characters = text[-3:]
-    print(last3characters)
+    lastCharacters = text[-repetitions:]
+    print(lastCharacters)
+    for i in range(repetitions-1):
+        print(lastCharacters[(-repetitions+1+i):])
+    return "."
 
 if __name__ == "__main__":
     text = input("Yell something at a mountain: ")
