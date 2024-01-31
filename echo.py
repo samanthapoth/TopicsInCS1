@@ -1,5 +1,6 @@
 #echo.py
 
+#echo function that simulates an echo with the text and repetitions specified by the user
 def echo(text:str, repetitions:int = 3) -> str:
     """Imitate a real world echo."""
     lastCharacters = text[-repetitions:]
