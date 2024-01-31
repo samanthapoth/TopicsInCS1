@@ -24,11 +24,15 @@ The fib.py file implements a function (fib) that uses recursion to calculate the
 
 The fib function takes in an integer and returns the number at that index of the Fibonacci sequence. The timer function takes in a function and returns a wrapper function that will have the same name and docstring as the function it is wrapping. 
 fib(100) is run when the user runs the program directly and the ending of output is shown in the image below. 
+
 <img width="365" alt="Screenshot 2024-01-31 at 4 36 58 PM" src="https://github.com/samanthapoth/TopicsInCS1HW1/assets/90707077/798cde4c-51f5-4ef3-888b-691962e8f997">
+
 The time it takes for each fib(x) function to run is printed because of the decorator timer function.
 
 The times array stores the time it takes for each function call of fib. This array is used to create a graph using matplotlib in the fibTimePlot.py file. 
+
 <img width="712" alt="Screenshot 2024-01-31 at 4 43 57 PM" src="https://github.com/samanthapoth/TopicsInCS1HW1/assets/90707077/958aa069-9e2d-4ccc-9953-65a0bdb7f7ef">
+
 This code plots the time it took for each function to run against its function call. The plot is shown below.
 
 
