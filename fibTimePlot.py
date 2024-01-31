@@ -13,5 +13,5 @@ times[1] = temp
 plt.plot(times)
 plt.ylabel('Time in seconds')
 plt.xlabel('fib(x)')
-plt.title('Fibonacci Function Calls')
+plt.title('Fibonacci Function Call Times')
 plt.show()
